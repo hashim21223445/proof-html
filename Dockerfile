@@ -1,4 +1,4 @@
-FROM alpine:3.20.8 as base
+FROM alpine:3.23.2 as base
 
 RUN apk --no-cache add openjdk11
 
